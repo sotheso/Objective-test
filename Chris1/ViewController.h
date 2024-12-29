@@ -9,6 +9,10 @@
 
 @interface ViewController : UIViewController
 
+-(int) sample1:(int)initsample;
+-(int) sample2:(int)initsample withBool:(BOOL)boolsample;
+ 
++(void) sampelClass;
 
 @end
 

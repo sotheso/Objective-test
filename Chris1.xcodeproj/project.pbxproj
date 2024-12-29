@@ -14,7 +14,7 @@
 		9BDC7F062D217AA5000189CE /* Exceptions for "Chris1" folder in "Chris1" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				stoyboard/Info.plist,
 			);
 			target = 9BDC7EEE2D217AA4000189CE /* Chris1 */;
 		};

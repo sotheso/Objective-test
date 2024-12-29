@@ -6,7 +6,7 @@
 //
 
 #import "ViewController.h"
-
+#import "classsample.h"
 @interface ViewController ()
 
 @end
@@ -18,5 +18,11 @@
     // Do any additional setup after loading the view.
 }
 
+-(int) sample1:(int)initsample;
+{
+    classSample *sample = [[classSample alloc] init];
+    
+    return  [sample sample1Param];
+}
 
 @end
